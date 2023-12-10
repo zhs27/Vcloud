@@ -23,7 +23,6 @@ pip install git+https://github.com/ajhamdi/mvtorch
 # Datasets
 Download ModelNet40 dataset with following commands:
 ```bash
-mkdir data
 cd data
 wget --no-check-certificate https://shapenet.cs.stanford.edu/media/modelnet40_ply_hdf5_2048.zip
 ```
