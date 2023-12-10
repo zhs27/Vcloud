@@ -23,6 +23,7 @@ pip install git+https://github.com/ajhamdi/mvtorch
 # Datasets
 Download ModelNet40 dataset with following commands:
 ```bash
+mkdir data
 cd data
 wget --no-check-certificate https://shapenet.cs.stanford.edu/media/modelnet40_ply_hdf5_2048.zip
 ```
@@ -35,7 +36,8 @@ For training process:
 ```bash
 python classification.py
 ```
-For testing process:
+
+After trained, put 3 pth files in the test folder, then run the testing process:
 ```bash
 python test.py
 ```
