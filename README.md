@@ -31,6 +31,10 @@ Download ModelNet40-C using following link:
 https://drive.google.com/drive/folders/10YeQRh92r_WdL-Dnog2zQfFr03UW4qXX
 Place the modelnet40-c folder in data folder
 
+# Trained models
+As github's limitation to large files, I have to share it by google drive: 
+https://drive.google.com/drive/folders/1afYQewKw7dEjVaAeOjXdI4aiyVtOoF5G?usp=drive_link
+
 # Run the code
 Activate your environment
 For training process:
@@ -38,7 +42,7 @@ For training process:
 python classification.py
 ```
 
-Move 3 pth files from models folder to train folder, run test.py
+Move 3 pth files to train folder, run test.py
 ```bash
 python test.py
 ```
