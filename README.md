@@ -27,6 +27,8 @@ mkdir data
 cd data
 wget --no-check-certificate https://shapenet.cs.stanford.edu/media/modelnet40_ply_hdf5_2048.zip
 ```
+Unzip the files.
+
 Download ModelNet40-C using following link:
 https://drive.google.com/drive/folders/10YeQRh92r_WdL-Dnog2zQfFr03UW4qXX
 Place the modelnet40-c folder in data folder
