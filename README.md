@@ -32,12 +32,13 @@ https://drive.google.com/drive/folders/10YeQRh92r_WdL-Dnog2zQfFr03UW4qXX
 Place the modelnet40-c folder in data folder
 
 # Run the code
+Activate your environment
 For training process:
 ```bash
 python classification.py
 ```
 
-After trained, put 3 pth files in the test folder, then run the testing process:
+Move 3 pth files from models folder to train folder, run test.py
 ```bash
 python test.py
 ```
